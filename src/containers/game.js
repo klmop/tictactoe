@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Board from './board';
 import { connect } from 'react-redux'
 // import { bindActionCreators } from 'redux';
-import { clickTurn, jumpTo, clickCoco } from '../actions/actions';
+import { clickTurn, jumpTo } from '../actions/actions';
 
 
 class Game extends Component {
@@ -40,7 +40,7 @@ function mapStateToProps(store) {
 }
 
 const mapDispatchToProps = {
-    handleClick: clickTurn, jumpTo: jumpTo, clickCoco: clickCoco
+    handleClick: clickTurn, jumpTo: jumpTo
 }
 // function mapDispatchToProps(dispatch) {
 //     return bindActionCreators({handleClick: clickTurn, jumpTo: jumpTo, clickCoco: clickCoco}, dispatch)
