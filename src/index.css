@@ -11,3 +11,65 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.Xsquare {
+  color: rgb(209, 36, 88);
+  height: 64px;
+  width: 64px;
+  font-size: 54px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  float: left;
+  text-align: center;
+  /* padding: 0; */
+  line-height: 64px;
+  margin-right: -1px;
+  margin-top: -1px;
+}
+.Osquare {
+  color: #3156cf;
+  height: 64px;
+  width: 64px;
+  font-size: 54px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  float: left;
+  text-align: center;
+  /* padding: 0; */
+  line-height: 64px;
+  margin-right: -1px;
+  margin-top: -1px;
+}
+
+.board-row:after {
+  display: table;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.status {
+  margin-bottom: 10px;
+  margin-left: 10px;
+  font-size: 24px;
+  color: #186fd3;
+  font-weight: bold;
+  background: #e2e4e6;
+}
+
+ol, ul {
+  padding-left: 30px;
+  font-size: 16px;
+  background: #d0d7db;
+}
+
+li:hover{
+  background: #cad1d6;
+  margin-bottom: 2px;
+  cursor: url('./images/coeur_guyane_3.png') 4 12, pointer;
+}
+
